@@ -55,4 +55,4 @@ sleep 2
 sed -i 's/HTTP = Off/HTTP = On/g' /usr/share/responder/Responder.conf
 sed -i 's/SMB = Off/SMB = On/g' /usr/share/responder/Responder.conf
 
-echo "İşlemler sonlandırıldı.
+echo "İşlemler sonlandırıldı."

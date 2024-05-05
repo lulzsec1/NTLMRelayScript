@@ -15,10 +15,11 @@ Github üzerinden dosya linuxta başlatıldığında betik hatası belirmekte bu
 ## Kullanım
 
 1. İlk olarak, HTTP ve SMB özellikleri devre dışı bırakılır.
-2. Kullanıcıdan bir IP listesi dosyası alınır.
-3. Belirtilen IP adreslerindeki SMB servisleri taranır.
-4. Bulunan IP adresleri işlenir ve NTLMRelayX & Responder aracı başlatılır.
-5. İşlemler tamamlandıktan sonra, HTTP ve SMB özellikleri yeniden etkinleştirilir.
+2. Kullanıcıdan bir IP listesi dosyası alınır. Hangi dizinde olduğunu istemektedir.
+ ###  Örnek: /home/kali/kapsam.txt
+4. Belirtilen IP adreslerindeki SMB servisleri taranır.
+5. Bulunan IP adresleri işlenir ve NTLMRelayX & Responder aracı başlatılır.
+6. İşlemler tamamlandıktan sonra, HTTP ve SMB özellikleri yeniden etkinleştirilir.
 
 
 ntlmrelayx terminalinde session yakalanırsa örneğin 192.168.1.1:10001

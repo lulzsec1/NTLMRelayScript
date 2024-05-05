@@ -2,6 +2,8 @@
 
 Bu bash scripti, Impacket aracını kullanarak NTLM Relay saldırılarını gerçekleştirmek için tasarlanmıştır. Ayrıca Bu script, Linux işletim sistemi üzerinde çalışır ve Impacket aracının yüklü olması gerekmektedir. Kullanım senaryosu olarak, belirli bir ağdaki Windows makinalarına karşı NTLM Relay saldırılarını gerçekleştirmek için kullanılabilir.
 
+Bu saldırının genel olarak işlevsel olduğu "SMB Signing not required" gibi düşük seviyeli çıkan zaafiyetleri kritik seviyeye taşıyabilecek güçtedir. 
+
 ## Kullanım
 
 1. İlk olarak, HTTP ve SMB özellikleri devre dışı bırakılır.
@@ -10,3 +12,6 @@ Bu bash scripti, Impacket aracını kullanarak NTLM Relay saldırılarını ger�
 4. Bulunan IP adresleri işlenir ve NTLMRelayX & Responder aracı başlatılır.
 5. İşlemler tamamlandıktan sonra, HTTP ve SMB özellikleri yeniden etkinleştirilir.
 
+
+ntlmrelayx terminalinde session yakalanırsa örneğin 192.168.1.1:10001
+Netcat ile reverse shell alınır. 

@@ -22,7 +22,7 @@ echo -e "\e[1;31m Tarama Başlatıldı \e[0m"
 # Aktif SMB servisleri tespit edilir
 echo -e "\e[1;31m Aktif SMB Servisleri Tespit Ediliyor... \e[0m"
 sleep 2
-nmap -p445 -T4 --open -iL "$iplist" -oG smbip.txt
+nmap --script=smb2-security-mode.nse -p445 -T4 --open -iL "$iplist" -oG smbip.txt | grep -E "message_signing: disabled"
 clear
 
 # Regex işlemi başlatılır

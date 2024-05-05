@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash \n
 
 #XTERM terminali yükleniyor
 apt-get install xterm

@@ -1,6 +1,6 @@
 # Impacket ile NTLM Relay Saldırısı Bash Scripti
 
-Bu bash scripti, Impacket aracını kullanarak NTLM Relay saldırılarını gerçekleştirmek için tasarlanmıştır.
+Bu bash scripti, Impacket aracını kullanarak NTLM Relay saldırılarını gerçekleştirmek için tasarlanmıştır. Ayrıca Bu script, Linux işletim sistemi üzerinde çalışır ve Impacket aracının yüklü olması gerekmektedir. Kullanım senaryosu olarak, belirli bir ağdaki Windows makinalarına karşı NTLM Relay saldırılarını gerçekleştirmek için kullanılabilir.
 
 ## Kullanım
 

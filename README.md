@@ -4,6 +4,7 @@ Bu bash scripti, Impacket aracını kullanarak NTLM Relay saldırılarını ger�
 
 Bu saldırının genel olarak işlevsel olduğu "SMB Signing not required" gibi düşük seviyeli çıkan zaafiyetleri kritik seviyeye taşıyabilecek güçtedir.
 
+### Gereklilikler
 Başlamadan önce her zamanki gibi bash script kodunu kullanabilmek için scripte full yetki tanımlamamız gerekiyor:
 Örnek: chmod +x ntlmrelay.sh
 
